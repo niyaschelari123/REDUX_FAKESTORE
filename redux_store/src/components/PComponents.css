@@ -1,0 +1,60 @@
+.card{
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card img{
+    height: 120px;
+    
+    
+}
+
+.displayprod{
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    flex-wrap:wrap;
+    
+}
+
+.imgcontainer img{
+    object-fit: cover;
+
+}
+
+.titlecontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.titlecontainer button{
+    border-radius: 10px;
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+.tit{
+    
+    height:100px;
+    margin-top: 15px;
+    border-radius: 15px;
+    text-align:center;
+    color:black;
+    border:1px solid black
+}
+
+.titlecontainer h4{
+    color:green;
+}
+
+.catg{
+    color:rgb(94, 96, 94);
+}

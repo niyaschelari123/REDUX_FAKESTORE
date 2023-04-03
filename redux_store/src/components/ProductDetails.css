@@ -1,0 +1,60 @@
+.first-container img{
+    height: 500px;
+}
+
+.prodcard{
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.product-title{
+    width: 550px;
+    text-align: center;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-container span{
+    font-size: 30px;
+    background-color: rgb(21, 197, 129);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: white;
+}
+
+.second-container h4{
+    color: rgb(243, 86, 86);
+    margin-top: 20px;
+}
+
+.second-container p{
+    width: 500px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.second-container button{
+    color: red;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.loading{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}

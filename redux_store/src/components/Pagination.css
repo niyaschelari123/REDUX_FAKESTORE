@@ -1,0 +1,21 @@
+.pagination{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    list-style-type: none;
+    margin-bottom: 50px;
+    
+}
+
+.listitem{
+    background-color:aquamarine;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.listitem:hover{
+    transform:translateY(-5px)
+}

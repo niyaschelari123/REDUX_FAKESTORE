@@ -1,0 +1,29 @@
+.itms{
+    color: yellow;
+    background-color:red;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    
+}
+
+.itms:hover{
+    transform:scale(1.1)
+}
+
+.searchbox{
+    height: 40px;
+    width: 200px;
+    padding: 8px;
+}
+
+.searchbar{
+    display:flex;
+    gap: 15px;
+}
+
+.searchbar img{
+    height: 40px;
+    cursor: pointer;
+}
